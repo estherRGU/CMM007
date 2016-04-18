@@ -6,6 +6,7 @@ main {
     max-width: 960px;
     margin-right: auto;
     margin-left: auto;
+    height:500px;
     background-color: aliceblue;
     padding: 10px;
 }
