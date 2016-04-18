@@ -1,0 +1,32 @@
+*{
+    background-color:#D0D6D6;
+}
+img{
+    width:10%;
+}
+p{
+    font-size:20px;
+}
+h1{
+   font-size:60px;
+}
+
+A:LINK{
+   COLOR:#5EA638;
+}
+
+A:HOVER{
+    COLOR:#FCBBFC;
+}
+
+A:VISITED{
+    COLOR:#6D42B3;
+}
+
+A:ACTIVE{
+    COLOR:#0661ED;
+}
+
+#footer{
+
+}
