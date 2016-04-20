@@ -1,3 +1,22 @@
 body{
     background-color:#FFFFFF;
 }
+
+main{
+    max-width:960px;
+    margin:auto;
+
+}
+
+#cont2{
+    background-color:#dbc9df;
+
+}
+#cont3{
+    background-color: #782a7e;
+
+}
+
+footer{
+    background-color:#363636;
+}
