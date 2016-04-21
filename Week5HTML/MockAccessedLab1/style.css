@@ -1,6 +1,19 @@
-body{
-    background-color:#FFFFFF;
+
+#grid-container{
+    width:960px;
 }
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+ }
+ li a{
+     display:inline-block;
+     text-align:center;
+     padding:0 10px 10px 10px;
+     text-decoration:none;
+     float:left;
+ }
 
 #chris{
     width:240px;
@@ -12,15 +25,31 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-#cont2{
+#csdm{
+    width:270px;
+}
+#News{
     background-color:#dbc9df;
-
+    width:33%;
+    float:left;
 }
-#cont3{
+#Events{
     background-color: #782a7e;
-
+    width:33%;
 }
+h1, h2, h3{
+    font-family: Roboto-light;
+}
+
 
 footer{
     background-color:#363636;
+    text-align:center;
+    color:#FFFFFF;
+
+
+}
+
+#vv{
+    width:960px;
 }
