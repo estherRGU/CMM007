@@ -2,12 +2,33 @@
 /**
  * Created by PhpStorm.
  * User: 1417777
- * Date: 25/04/2016
- * Time: 22:22
+ * Date: 26/04/2016
+ * Time: 11:18
  */
-define('DB_ap-cdbr-azure-east-c.cloudapp.net', 'your-azure-server');
-define('DB_b6d74ce4980e5b', 'your-username');
-define('DB_f19b9429', 'your-password');
-define('DB_rgu1417777', 'your-database');
-$db = mysqli_connect(DB_ap-cdbr-azure-east-c.cloudapp.net,DB_b6d74ce4980e5b,DB_f19b9429,DB_rgu1417777);
-?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PHP Login Form without Session</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<h1>PHP Login Form with Session</h1>
+<div class="loginBox">
+    <h3>Login Form</h3>
+    <br><br>
+    <form method="post" action="login.php">
+        <label>Username:</label><br>
+    <input type="text" name="username" placeholder="username"/>
+<br><br>
+        <label>Password:</label><br>
+        <input type="password" name="password" placeholder="password" />
+<br><br>
+        <input type="submit" name="submit" value = "login"/>
+    </form>
+    <div class="error"><?php //echo $error;?><?php //echo $username; echo
+$password;?></div>
+
+</div>
+</body>
+</html>
