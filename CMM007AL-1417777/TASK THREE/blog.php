@@ -12,8 +12,8 @@
     <meta charset="UTF-8">
     <title>Show Blog Entry</title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href=unsemantic-grid-responsive-tablet.css>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" href=../unsemantic-grid-responsive-tablet.css>
 
 
 </head>
@@ -31,7 +31,7 @@
                 <li><a href="blog.html"> Work Blog Items </a></li>
                 <li><a href="blog.html"> University Blog Items </a></li>
                 <li><a href="blog.html"> Family Blog Items </a></li>
-                <li><a href="add.html"> Insert Blog Items </a></li>
+                <li><a href="../TASK%20ONE/add.html"> Insert Blog Items </a></li>
             </ul>
         </nav>
         <?

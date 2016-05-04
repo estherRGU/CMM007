@@ -11,8 +11,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../unsemantic-grid-responsive-tablet.css">
     <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1"/>
 </head>
 <body>
@@ -28,7 +28,7 @@
                 <li><a href="blog.html"> Work Blog Items </a></li>
                 <li><a href="blog.html"> University Blog Items </a></li>
                 <li><a href="blog.html"> Family Blog Items </a></li>
-                <li><a href="add.html"> Insert Blog Items </a></li>
+                <li><a href="../TASK%20ONE/add.html"> Insert Blog Items </a></li>
             </ul>
         </nav>
 
@@ -36,7 +36,7 @@
     </header>
     <!-- END OF HEADER -->
     <aside class="grid-33 mobile-grid-66">
-        <img id="logo" src="assets/blog.png" alt="Blog logo"/>
+        <img id="logo" src="../assets/blog.png" alt="Blog logo"/>
     </aside>
     <section class="grid-66 mobile-grid-66">
         <p>
