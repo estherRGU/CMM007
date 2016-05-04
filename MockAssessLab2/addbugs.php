@@ -97,20 +97,14 @@
 81  
 82             if (mysqli_query($db, $bug_SQLinsert)) {
                 83
-84                 header("location:showbugs.phplab"); 
-85             } else {
+                header("location:showbugs.phplab");} else {
                 86                 echo "Failed to add new bug";
-87  
-88             } 
-89         } 
-90        else{
+            }
+        }
+        else{
             91            ("location:index.phplab");
-92        } 
-93  
-94  
-95  
-96  
-97 ?>
+       }
+ ?>
         98
 
         99
